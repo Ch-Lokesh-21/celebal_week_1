@@ -29,11 +29,15 @@ A React-based form application that implements client-side validation without th
 ## Screenshots
 
 ### 1. Form Page
-![Form Page](screenshot-form.png)  
-*Description: This screenshot shows the form with various fields, real-time validation, and error messages.*
+![Form_Page_1](https://github.com/Ch-Lokesh-21/celebal_week_1/blob/cd9bad8ad504275826d4f6be0b439ebe0f2763d5/Screenshot%202025-06-08%20010039.png)
+
+![Form_Page_2](https://github.com/Ch-Lokesh-21/celebal_week_1/blob/cd9bad8ad504275826d4f6be0b439ebe0f2763d5/Screenshot%202025-06-08%20004240.png)
+
+*Description: This screenshots shows the form with various fields, real-time validation, and error messages.*
 
 ### 2. Success Page
-![Success Page](screenshot-success.png)  
+![Success_Page](https://github.com/Ch-Lokesh-21/celebal_week_1/blob/cd9bad8ad504275826d4f6be0b439ebe0f2763d5/Screenshot%202025-06-08%20004302.png)  
+
 *Description: This screenshot displays the structured table with all submitted details.*
 
 ---

@@ -200,7 +200,7 @@ const Form = () => {
           <button
             type="submit"
             disabled={Object.values(errors).some((error) => error)}
-            className="w-full bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 focus:outline-none disabled:bg-gray-400 disabled:cursor-not-allowed py-3"
+            className="w-full bg-blue-600 text-white text-lg font-semibold rounded-lg hover:bg-blue-700 hover:cursor-pointer focus:outline-none disabled:bg-gray-400 disabled:cursor-not-allowed py-3"
           >
             Submit
           </button>

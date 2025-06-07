@@ -1,5 +1,5 @@
 import { useLocation } from "react-router-dom";
-
+import { Link } from "react-router-dom";
 const Success = () => {
   const { state: formData } = useLocation();
 
@@ -35,6 +35,10 @@ const Success = () => {
           </tbody>
         </table>
       </div>
+
+      <Link to={"/"} className="mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+        Go Back to Form
+      </Link>
     </div>
   );
 };

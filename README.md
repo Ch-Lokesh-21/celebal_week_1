@@ -41,5 +41,5 @@ Ensure you have the following installed:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/react-form-validation.git
-   cd react-form-validation
+   git clone https://github.com/Ch-Lokesh-21/celebal_week_1.git
+   cd celebal_week_1

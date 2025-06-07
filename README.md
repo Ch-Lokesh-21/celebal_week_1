@@ -1,12 +1,45 @@
-# React + Vite
+# React Form with Validation
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based form application with client-side validation using Tailwind CSS. This project validates user input fields like names, email, password, phone number, PAN, and Aadhaar numbers, ensuring accurate and secure data submission.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Design**: Styled with Tailwind CSS for a modern and mobile-friendly interface.
+- **Client-Side Validation**:
+  - First Name and Last Name must only contain alphabets.
+  - Password must be at least 8 characters long and include:
+    - At least one lowercase letter.
+    - At least one uppercase letter.
+    - At least one digit.
+    - At least one special character.
+  - Email format validation.
+  - Phone number with country code validation.
+  - PAN and Aadhaar number validation.
+- **Dynamic Dropdowns**:
+  - Country selection dynamically updates the city options.
+- **Password Toggle**: Show or hide password input.
+- **Error Display**: Inline error messages for invalid inputs.
+- **Submission**: On successful validation, form data is displayed in a table format on the success page.
 
-## Expanding the ESLint configuration
+## Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+![Form Screenshot](path_to_image)
+
+## Installation and Setup
+
+Follow these steps to run the project locally:
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/) (v14+)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Steps
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/yourusername/react-form-validation.git
+   cd react-form-validation

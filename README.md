@@ -11,7 +11,7 @@ A React-based form application that implements client-side validation without th
 3. **Show/Hide Password**: A toggle button to show or hide the password.
 4. **Dynamic Dropdowns**: Country and city fields dynamically update based on the user's selection.
 5. **Field-Specific Validations**:
-   - **First Name & Last Name**: Alphabets only.
+   - **First Name & Last Name**: Alphabets and spaces only.
    - **Email**: Must include "@".
    - **Password**: At least 8 characters with one uppercase, one lowercase, one number, and one special character.
    - **Phone Number**: Format as `+CountryCode Number`.

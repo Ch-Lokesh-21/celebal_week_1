@@ -122,7 +122,7 @@ const Form = () => {
             { name: "aadhar", placeholder: "Aadhar Number", type: "text" },
           ].map(({ name, placeholder, type }) => (
             <div key={name} className="w-full">
-              <input
+              <input required
                 type={type}
                 name={name}
                 placeholder={placeholder}
@@ -138,6 +138,7 @@ const Form = () => {
           <div className="w-full">
             <div className="relative">
               <input
+                required
                 type={showPassword ? "text" : "password"}
                 name="password"
                 placeholder="Password"
@@ -159,6 +160,7 @@ const Form = () => {
           </div>
           <div className="w-full">
             <select
+              required
               name="country"
               value={formData.country}
               onChange={handleChange}
@@ -177,6 +179,7 @@ const Form = () => {
           </div>
           <div className="w-full">
             <select
+              required
               name="city"
               value={formData.city}
               onChange={handleChange}

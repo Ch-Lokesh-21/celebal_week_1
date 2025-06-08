@@ -23,7 +23,7 @@ const Form = () => {
   const validateField = (name, value) => {
     let error = "";
 
-    const nameRegex = /^[A-Za-z]+$/;
+    const nameRegex = /^[A-Za-z\s]+$/;
     const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/;
 
     switch (name) {
